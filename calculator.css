@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+body{
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, black,rgb(16, 196, 160));
+}
+ .calculator{
+    padding: 15px;
+    box-shadow: 0 0 15px black;
+    border: 1px solid rgb(193, 182, 182);
+    border-radius: 20px;
+ }
+.display input{
+    width: 360px;
+    border: none;
+    outline: none;
+    padding: 15px;
+    margin: 10px;
+    background: transparent;
+    color: white;
+    text-align: right;
+    font-size: 50px;  
+    cursor: pointer;
+}
+.display1 input{
+    width:360px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin: 2px;
+    background: transparent;
+    color: white;
+    text-align: right;
+    font-size: 20px;  
+    cursor: pointer;
+}
+button{
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    color: whitesmoke;
+    margin: 10px;
+   outline: 1px solid rgb(16, 196, 160);
+   font-size: 22px;
+   font-weight: 600;
+   border: 0;
+   border-radius: 50%;
+   box-shadow:-5px -6px 15px rgb(16, 196, 160);
+   outline-offset: 3px;
+   cursor: pointer;
+}
+button:hover{
+    transform: scale(1.1) rotate(-1deg);
+}
+button:active{
+    background: rgb(16, 196, 160);
+    transform: 2px 2px;
+}
+.opr{
+
+    background-color: black;
+    color: chartreuse;
+}
+#eqBtn{
+    background-color: orangered;
+}
+.inputBox::placeholder{
+color: white;
+}
